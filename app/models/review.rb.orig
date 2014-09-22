@@ -1,0 +1,10 @@
+class Review < ActiveRecord::Base
+<<<<<<< HEAD
+  belongs_to :guest, :class_name => :User
+  belongs_to :reservation
+end
+=======
+  belongs_to :reservation
+  belongs_to :guest, :class_name => "User"
+end
+>>>>>>> add solution code
